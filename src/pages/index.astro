@@ -5,7 +5,7 @@ import Layout from "../layouts/Layout.astro";
 <Layout title="Aca podras encontrar mis redes">
 	<main>
 		<img src="/Alejandro.png" alt="Alejandro" />
-		<h1>Te dejo mis redes 🚀</h1>
+		<h1>🚀Te dejo mis redes 🚀</h1>
 		
 		<a target="_blank" href="https://alejandro-portfolio.vercel.app/">
 		  <button class="btn" type="button">
@@ -58,6 +58,19 @@ import Layout from "../layouts/Layout.astro";
 			  </div>
 			</button>
   		</a>
+
+      <a href="mailto:alejandroaguerodev@gmail.com?subject=Contacto%20desde%20tu%20portfolio%20para%20hacerte%20una%20consulta.&body=Hola%20Alejandro,%20como%20estas?">
+        <button class="btn" type="button">
+          <strong><i class="fa-solid fa-envelope"></i>Email</strong>
+          <div id="container-stars">
+            <div id="stars"></div>
+          </div>  
+          <div id="glow">
+            <div class="circle"></div>
+            <div class="circle"></div>
+          </div>
+        </button>
+      </a>
 	</main>
 </Layout>
 
@@ -172,7 +185,8 @@ import Layout from "../layouts/Layout.astro";
   }
 
   .btn:hover {
-    transform: scale(1.2)
+    /* transform: scale(1.2) */
+    cursor: pointer;
   }
 
   .btn:active {
