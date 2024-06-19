@@ -76,7 +76,8 @@ import Layout from "../layouts/Layout.astro";
 
 <style>
   body {
-    animation: backgroundAnimation 4s ease-in-out infinite;
+    background-color: #004343;
+    /* animation: backgroundAnimation 4s ease-in-out infinite; */
   }
 
   main {
@@ -238,7 +239,7 @@ import Layout from "../layouts/Layout.astro";
     opacity: 0.5;
   }
 
-  @keyframes backgroundAnimation {
+  /* @keyframes backgroundAnimation {
     0% {
       background-color: #004343;
     }
@@ -254,7 +255,7 @@ import Layout from "../layouts/Layout.astro";
     100% {
       background-color: #004343;
     }
-  }
+  } */
 
   @keyframes animStar {
     from {
@@ -321,6 +322,9 @@ import Layout from "../layouts/Layout.astro";
       font-size: 14px;
     }
 
+    h1 {
+      font-size: 1.5rem;
+    }
     strong {
       font-size: 14px;
       letter-spacing: 2px;
